@@ -248,7 +248,7 @@ section {
 .modal-css:target { display: flex; }
 
 .modal-contenido {
-    background-image: url('img/LILA.png'); 
+    background-image: url('IMG/LILA.png'); 
     background-size: 100% 100%;
     width: 90%;
     max-width: 1100px;
@@ -297,7 +297,7 @@ section {
 }
 
 .tarjeta-contacto {
-    background-image: url('img/LILA.png');
+    background-image: url('IMG/LILA.png');
     background-size: 100% 100%; 
     width: 500px; 
     padding: 80px 50px; 
