@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARO APANTENCO | PORTAFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="IMG/favicon-16x16.png"/>
+</head>
+<body>
+
+<header class="navbar">
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#biografia">BIOGRAFÍA</a></li>
+            <li><a href="#portafolio">PORTAFOLIO</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="avatar-box">
+            <IMG src="IMG/STIKER.png" alt="Carolina Apantenco" class="avatar-img">
+        </div>
+        <h1 class="main-nombre">CAROLINA APANTENCO</h1>
+        <p class="main-rol">DISEÑADORA GRÁFICA</p> 
+    </div>
+</section>
+
+<section id="biografia" class="biografia-section">
+    <div class="bio-main-wrapper"> 
+        <div class="bio-container">
+            <div class="bio-col-izquierda">
+                <img src="IMG/FOTO.jpeg" class="bio-foto" alt="Carolina Foto">
+            </div>
+            <div class="bio-col-derecha">
+                <div class="cuadro-lila-fondo">
+                    <div class="bio-bloque">
+                        <img src="IMG/CORAZON.gif" class="gif-list">
+                        <p>Mi nombre es Carolina Apantenco, soy una mujer mexicana que actualmente está estudiando la carrera de Diseño Gráfico en la Universidad Humanitas. Me apasiona crear contenido gráfico desde una idea o una necesidad con significante. Hasta ahora, mi trabajo ha sido diverso pero considero que mi fuerte es la creación de posters publicitarios. Me considero una persona con eminencia creativa, divertida y curiosa.</p>
+                    </div>
+                    <div class="bio-bloque">
+                        <img src="IMG/CORAZON.gif" class="gif-list">
+                        <div class="experiencia-texto">
+                            <h3>Experiencia</h3>
+                            <p><strong>Premio Nacional de Diseño, "Diseña México" (2025)</strong><br>
+                            Participé en el concurso nacional de diseño junto con mi equipo en la categoría de diseño de empaque y embalaje. Ganamos el primer lugar dentro de esta clasificación.</p>
+                            <p><strong>Taller de fotografía (Mayo 2025)</strong><br>
+                            Tuve la oportunidad de participar en el taller de fotografía editorial en la Universidad Humanitas.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="software-section">
+            <h2 class="software-titulo">SOFTWARE</h2>
+            <div class="software-iconos">
+                <div class="post-it-sw">
+                    <img src="IMG/POST IT.png" class="base-postit">
+                    <img src="IMG/PS.png" class="logo-software">
+                </div>
+                <div class="post-it-sw">
+                    <img src="IMG/POST IT.png" class="base-postit">
+                    <img src="IMG/AI.png" class="logo-software">
+                </div>
+                <div class="post-it-sw">
+                    <img src="IMG/POST IT.png" class="base-postit">
+                    <img src="IMG/LR.png" class="logo-software">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portafolio" class="seccion-portafolio">
+    <h2 class="portafolio-titulo">PROYECTOS DESTACADOS</h2>
+    
+    <div class="galeria-horizontal">
+        <a href="#detalle-p1" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/inv img.jpg"></div>
+        </a>
+        <a href="#detalle-p2" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/REV 1.jpg"></div>
+        </a>
+        <a href="#detalle-p3" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/ID3.png"></div>
+        </a>
+
+        <a href="#detalle-pub1" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/DOMIN.jpg"></div>
+        </a>
+        <a href="#detalle-pub2" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/PUB2.jpg"></div>
+        </a>
+        <a href="#detalle-pub3" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/TRAMA.jpg"></div>
+        </a>
+
+        <a href="#detalle-Post1" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/POS 1.jpg"></div>
+        </a>
+        <a href="#detalle-Post2" class="post-it-item">
+            <img src="IMG/POST IT.png" class="papel-postit">
+            <div class="foto-preview"><img src="IMG/POS 2.jpg"></div>
+        
+    </div>
+</section>
+
+<!-- MODAL 1 CORREGIDO -->
+<div id="detalle-p1" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"> 
+                <!-- Agregamos clase foto-grande y atributos para que se vea y funcione -->
+                <video src="vid/DOMINOS INV.mp4" class="foto-grande" autoplay muted loop playsinline controls></video> 
+            </div> <!-- Aquí faltaba cerrar este div en tu código original -->
+            <div class="col-texto">
+                <p>Creación de una invitación animada en Photoshop para un concurso de disfraces en la Flagship Store de Domino’s México. El proyecto fusiona la identidad visual de la marca con una temática de Halloween inspirada en el universo de Peanuts.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-p2" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/IMG REV.jpg" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Publicación editorial de corte cultural e histórico que explora la cosmovisión, mitología y el legado de la civilización mexica. El proyecto nace de la necesidad de crear un puente visual y narrativo entre el pasado prehispánico y la identidad mexicana contemporánea, alejándose de las visiones estigmatizadas para presentar a los pueblos originarios como actores dinámicos de su propia historia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-p3" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/ID 3.png" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Desarrollo de identidad visual basada en el origen histórico del espacio, combinando el concepto de la miel con el rubro de marisquería. Este proyecto explora la intersección entre el pasado de un inmueble y su nueva función comercial. El logotipo es un isotipo híbrido: la estructura segmentada evoca tanto el cuerpo de un pez como las celdas de una colmena.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-pub1" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/DOMINOS.jpg" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Publicidad que celebra el sincretismo cultural mexicano. A través de un juego de palabras ingenioso y una estética inspirada en los altares tradicionales, este diseño busca atraer al consumidor joven mediante la fusión de la comida rápida y la tradición milenaria del Día de Muertos.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-pub2" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/ESPEC UMB.png" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Propuesta de cartel publicitario para mobiliario urbano. La composición busca armonizar la identidad visual de la marca con un entorno dinámico, empleando una paleta de colores vibrantes y una tipografía clara que refuerza el posicionamiento de la marca como líder en cuidado dermatológico.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-pub3" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/TRAMA.jpg" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Ilustración analógica ejecutada totalmente a mano, centrada en el uso de la línea como unidad básica de volumen. Utilizando una retícula lineal inclinada, se modularon los grosores para generar luces y sombras, logrando una ilusión óptica de tridimensionalidad.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-Post1" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/POS 1.jpg" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Proyecto editorial que explora la dualidad de la identidad mexicana contemporánea. El cartel utiliza una composición de alto contraste y tipografía con máscara de recorte para fusionar el retrato tradicional de una catrina con el entorno natural, simbolizando la unión entre la vida, la muerte y el arraigo a la tierra bajo una estética moderna y minimalista.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="detalle-Post2" class="modal-css">
+    <div class="modal-contenido">
+        <a href="#portafolio" class="btn-cerrar">&times;</a>
+        <div class="detalle-layout">
+            <div class="col-imagen"><img src="IMG/POS 2.jpg" class="foto-grande"></div>
+            <div class="col-texto">
+                <p>Pieza inspirada en la técnica de impresión risográfica y el arte de los fanzines. El diseño destaca por el uso de semitonos (medios tonos), texturas de desgaste y una paleta de colores vibrantes en contraste. La composición tipográfica orgánica y los elementos con bordes "rasgados" refuerzan una identidad visual artesanal, ruda y auténtica, ideal para la promoción de eventos culturales y musicales. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="contacto" class="seccion-contacto">
+    <div class="contacto-container">
+        <div class="avatar-sticker">
+            <img src="IMG/STIKER.png" alt="Avatar Caro">
+        </div>
+
+        <div class="tarjeta-contacto">
+            <div class="info-row">
+                <a href="https://www.instagram.com/caro_x08?igsh=MXRnZWoxYTdobTlydA==" target="_blank">
+                    <img src="IMG/RED 1.png" class="icon" alt="Instagram">
+                    <span>@caro_x08</span>
+                </a>
+            </div>
+
+            <div class="info-row">
+                <a href="mailto:caroapantenco@gmail.com">
+                    <img src="IMG/RED 2.png" class="icon" alt="Email">
+                    <span>apantencoalexia@gmail.com</span>
+                </a>
+            </div>
+
+            <div class="info-row">
+                <a href="https://wa.me/525620926233" target="_blank">
+                    <img src="IMG/RED 3.png" class="icon" alt="WhatsApp">
+                    <span>56 20 92 62 33</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
